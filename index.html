@@ -18,12 +18,18 @@
     }
     
     .container {
-      max-width: 650px; 
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 50px; 
-    }
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 40px; /* Adds space inside the border */
+    border: 1px solid #10b981; /* Tactical green border */
+    border-radius: 12px;
+    background-color: rgba(15, 23, 42, 0.7); /* Dark backdrop */
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.15); /* Subtle green glow */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    box-sizing: border-box;
+}
     
     /* Header Section */
     .header { text-align: center; }
@@ -211,11 +217,23 @@ h2 {
     <section>
         <div class="tactical-label">ESTABLISH COMMS</div>
         <h2>CONTACT</h2>
+      
         <div class="contact-box">
             <p>Currently seeking 2027 internship opportunities and early career opportunities  in cybersecurity, and  and IT support . The line is open.</p>
             <a href="mailto:Stephnermakori@gmail.com" class="btn-download">Open Channel</a>
         </div>
     </section>
+      <!-- Footer Section -->
+    <footer style="text-align: center; border-top: 1px dashed #334155; padding-top: 20px; margin-top: -10px;">
+        <div class="tactical-label">
+            &copy; <span id="current-year"></span> STEPHNER MAKORI ORINA // ALL SYSTEMS NOMINAL
+        </div>
+    </footer>
+
+    <!-- Auto-updating year script -->
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
 </div>
 </body>
 </html>
