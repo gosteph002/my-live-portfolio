@@ -7,24 +7,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
   <style>
     /* Modern Dark Theme with Subtle Gradient */
-    body { 
-      font-family: 'Inter', sans-serif; 
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-      color: #e2e8f0; 
-      margin: 0; 
-      padding: 60px 20px;
-      line-height: 1.7;
-      min-height: 100vh;
-    }
-    
-    .container {
-    max-width: 650px;
-    margin: 40px auto;
-    padding: 40px; /* Adds space inside the border */
-    border: 1px solid #10b981; /* Tactical green border */
-    border-radius: 12px;
-    background-color: rgba(15, 23, 42, 0.7); /* Dark backdrop */
-    box-shadow: 0 0 20px rgba(16, 185, 129, 0.15); /* Subtle green glow */
+   body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #e2e8f0;
+    margin: 0;
+    padding: 0; /* Removed outside spacing */
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 100%; /* Stretches across the entire screen */
+    min-height: 100vh; /* Stretches from top to bottom */
+    margin: 0; /* Removes outer margins */
+    padding: 60px 40px; /* Keeps space inside the border for your text */
+    border: 8px solid #10b981; /* Thicker, wider border */
+    border-radius: 0; /* Sharp corners for a full-screen flush fit */
+    background-color: rgba(15, 23, 42, 0.7); 
+    box-shadow: inset 0 0 30px rgba(16, 185, 129, 0.15); /* Pushes the green glow inside */
     display: flex;
     flex-direction: column;
     gap: 50px;
