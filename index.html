@@ -7,25 +7,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
   <style>
     /* Modern Dark Theme with Subtle Gradient */
-   body {
+ body {
     font-family: 'Inter', sans-serif;
     background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
     color: #e2e8f0;
     margin: 0;
-    padding: 0; /* Removed outside spacing */
+    padding: 20px;
     line-height: 1.7;
     min-height: 100vh;
 }
-
 .container {
-    max-width: 100%; /* Stretches across the entire screen */
-    min-height: 100vh; /* Stretches from top to bottom */
-    margin: 0; /* Removes outer margins */
-    padding: 60px 40px; /* Keeps space inside the border for your text */
-    border: 8px solid #10b981; /* Thicker, wider border */
-    border-radius: 0; /* Sharp corners for a full-screen flush fit */
-    background-color: rgba(15, 23, 42, 0.7); 
-    box-shadow: inset 0 0 30px rgba(16, 185, 129, 0.15); /* Pushes the green glow inside */
+    max-width: 700px;
+    margin: 40px auto; /* Centers the card on the screen */
+    padding: 50px;
+    border: 1px solid #334155; /* Very subtle grey border */
+    border-radius: 16px; /* Soft rounded corners */
+    background-color: rgba(15, 23, 42, 0.85);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Soft drop shadow */
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -164,14 +162,16 @@ h2 {
         
         <!-- Rearranged Action Buttons -->
         <div class="action-buttons">
+            <!-- Opens the resume in the current tab -->
+            <a href="resume.pdf" class="btn-download"> View Resume </a>
+            
             <div class="social-links">
                 <a href="https://github.com/gosteph002/gosteph002.github.io">GitHub</a>
                 <a href="https://www.linkedin.com/in/stephnerorina">LinkedIn</a>
-                <a href="https://www.credly.com/users/steph-orina">Credly</a>
+                <a href="url?id=3">Credly</a>
             </div>
         </div>
     </header>
-
     <!-- Arsenal Section -->
     <section>
         <div class="tactical-label">WHAT I SECURE WITH</div>
