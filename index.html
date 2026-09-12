@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stephner Makori Orina | Cybersecurity Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <style>
+    /* Modern Dark Theme with Subtle Gradient */
+    body { 
+      font-family: 'Inter', sans-serif; 
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #e2e8f0; 
+      margin: 0; 
+      padding: 60px 20px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 650px; 
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 50px; 
+    }
+    
+    /* Header Section */
+    .header { text-align: center; }
+    .header img { 
+      width: 140px; height: 140px; 
+      border-radius: 50%; 
+      object-fit: cover; 
+      border: 4px solid #10b981; 
+      box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+      margin-bottom: 20px;
+    }
+    h1 { color: #f8fafc; font-weight: 800; font-size: 2.5rem; margin: 0 0 10px 0; letter-spacing: -0.5px; }
+    p.bio { font-size: 1.15rem; color: #94a3b8; margin: 0 auto 30px auto; max-width: 550px; }
+
+    /* Buttons & Social Links */
+    .action-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .btn-download {
+      background-color: #10b981;
+      color: #0f172a;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);
+    }
+    .btn-download:hover { background-color: #059669; transform: translateY(-2px); }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .social-links a {
+      text-decoration: none;
+      color: #f8fafc;
+      background-color: #334155;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: background-color 0.2s ease;
+    }
+    .social-links a:hover { background-color: #475569; }
+
+    /* Vertical Sections */
+    section { display: flex; flex-direction: column; gap: 20px; }
+    h2 { 
+      color: #10b981; 
+      font-weight: 600; 
+      font-size: 1.4rem; 
+      margin: 0; 
+      border-bottom: 1px solid #334155; 
+      padding-bottom: 10px;
+    }
+
+    /* Content Cards (Stacked Vertically) */
+    .card { 
+      background-color: rgba(30, 41, 59, 0.7); 
+      padding: 25px; 
+      border-radius: 12px; 
+      border: 1px solid #334155;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .card:hover { transform: translateX(5px); border-color: #10b981; } 
+    .card h3 { margin: 0 0 10px 0; color: #f8fafc; font-size: 1.25rem; }
+    .card p { margin: 0; color: #cbd5e1; font-size: 1rem; }
+    
+    .card-link {
+      display: inline-block;
+      margin-top: 15px;
+      color: #10b981;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+    .card-link:hover { text-decoration: underline; }
+
+    /* Contact Section */
+    .contact-box {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: rgba(30, 41, 59, 0.5);
+      border-radius: 12px;
+      border: 1px dashed #475569;
+    }
+    .contact-box p { margin-bottom: 20px; color: #cbd5e1; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Header & Bio -->
+    <header class="header">
+      <img src="profile.jpg" alt="Stephner Makori Orina">
+      <h1>Stephner Makori Orina</h1>
+      <p class="bio">Cybersecurity & Information Systems Student based in Atlanta, GA. Focused on Blue team operations , cloud security, and  analytics.</p>
+      
+      <div class="action-buttons">
+        <!-- Download Attribute tells the browser to save the file rather than open it -->
+        <!-- Opens the resume in the current tab -->
+<a href="resume.pdf" class="btn-download">
+  View Resume
+</a>
+        
+     <div class="social-links">
+  <a href="https://github.com/gosteph002/gosteph002.github.io">GitHub</a>
+  <a href="https://www.linkedin.com/in/stephnerorina">LinkedIn</a>
+  <a href="https://www.credly.com/users/steph-orina">Credly</a>
+</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section>
+      <h2>Skills</h2>
+      <div class="card">
+        <h3>Core Competencies</h3>
+        <p>Digital Forensics, Incident Response, Network Security, IoT Defense, Database Design (ERDs)</p>
+      </div>
+      <div class="card">
+        <h3>Tools & Technologies</h3>
+        <p>Wireshark, Python, PowerShell, Mosquitto MQTT, VMware Workstation, pfSense, Draw.io</p>
+      </div>
+    </section>
+
+    <!-- Writings and Publications Section -->
+    <section>
+      <h2>Writings and publications</h2>
+      <div class="card">
+        <h3></p>
+        <a href="https://medium.com/@stephorina292" class="card-link">Read on Medium ↗</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section>
+      <h2>Get In Touch</h2>
+      <div class="contact-box">
+        <p>Currently seeking internship opportunities in cybersecurity and incident response. My inbox is always open.</p>
+        <a href="mailto:Stephnermakori@gmail.com" class="btn-download">Say Hello</a>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
