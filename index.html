@@ -122,6 +122,20 @@
       border: 1px dashed #475569;
     }
     .contact-box p { margin-bottom: 20px; color: #cbd5e1; }
+    /* Tactical Theme Additions */
+.tactical-label {
+    font-family: 'Courier New', Courier, monospace;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
   </style>
 </head>
 <body>
@@ -139,47 +153,81 @@
 <a href="resume.pdf" class="btn-download">
   View Resume
 </a>
+    <div class="container">
+    <!-- Header & Bio -->
+    <header class="header">
+        <img src="profile.jpg" alt="Stephner Makori Orina">
+        <h1>Stephner Makori Orina</h1>
+        <p class="bio">Cybersecurity & Information Systems Student at Kennesaw State University. Focused on blue team operations, cloud security, and analytics.</p>
         
-     <div class="social-links">
-  <a href="https://github.com/gosteph002/gosteph002.github.io">GitHub</a>
-  <a href="https://www.linkedin.com/in/stephnerorina">LinkedIn</a>
-  <a href="https://www.credly.com/users/steph-orina">Credly</a>
-</div>
+        <!-- Rearranged Action Buttons -->
+        <div class="action-buttons">
+            <div class="social-links">
+                <a href="https://github.com/gosteph002/gosteph002.github.io">GitHub</a>
+                <a href="https://www.linkedin.com/in/stephnerorina">LinkedIn</a>
+                <a href="https://www.credly.com/users/steph-orina">Credly</a>
+            </div>
+            <!-- Download Attribute tells the browser to save the file rather than open it -->
+            <a href="resume.pdf" class="btn-download" download>Download Dossier (Resume)</a>
         </div>
-      </div>
     </header>
 
-    <!-- Skills Section -->
+    <!-- Arsenal Section (Inspired by Sookra) -->
     <section>
-      <h2>Skills</h2>
-      <div class="card">
-        <h3>Core Competencies</h3>
-        <p>Digital Forensics, Incident Response, Network Security, IoT Defense, Database Design (ERDs)</p>
-      </div>
-      <div class="card">
-        <h3>Tools & Technologies</h3>
-        <p>Wireshark, Python, PowerShell, Mosquitto MQTT, VMware Workstation, pfSense, Draw.io</p>
-      </div>
+        <div class="tactical-label">WHAT I SECURE WITH</div>
+        <h2>A R S E N A L</h2>
+        
+        <div class="card">
+            <div class="tactical-label">01 // CORE COMPETENCIES</div>
+            <h3>Operations & Analysis</h3>
+            <p>Digital Forensics, Incident Response, Network Security, IoT Defense, Database Design</p>
+        </div>
+        
+        <div class="card">
+            <div class="tactical-label">02 // TOOLS & TECH</div>
+            <h3>Software & Environments</h3>
+            <p>Wireshark, Python, PowerShell, Mosquitto MQTT, VMware Workstation, pfSense, Splunk, Security Onion</p>
+        </div>
     </section>
 
-    <!-- Writings and Publications Section -->
+    <!-- Service Record Section (Projects) -->
     <section>
-      <h2>Writings and publications</h2>
-      <div class="card">
-        <h3></p>
-        <a href="https://medium.com/@stephorina292" class="card-link">Read on Medium ↗</a>
-      </div>
+        <div class="tactical-label">FIELD EXPERIENCE</div>
+        <h2>SERVICE RECORD</h2>
+        
+        <div class="card">
+            <div class="tactical-label">AUGUST 2026 // EXTERN PROJECT</div>
+            <h3>IoT Water Monitoring Security Pipeline</h3>
+            <p>Built and secured an IoT monitoring pipeline for The Grand Marina Hotel. Implemented mutual TLS, message authentication codes, and a real-time dashboard for secure telemetry data.</p>
+        </div>
+        
+        <div class="card">
+            <div class="tactical-label">AUGUST 2026 // ARCHITECTURE</div>
+            <h3>Cybersecurity Home Lab</h3>
+            <p>Designed and deployed an enterprise-grade virtualized lab environment utilizing Ubuntu, Windows Active Directory, a pfSense firewall, and Splunk SIEM for live log monitoring and threat detection.</p>
+        </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Publications -->
     <section>
-      <h2>Get In Touch</h2>
-      <div class="contact-box">
-        <p>Currently seeking internship opportunities in cybersecurity and incident response. My inbox is always open.</p>
-        <a href="mailto:Stephnermakori@gmail.com" class="btn-download">Say Hello</a>
-      </div>
+        <div class="tactical-label">FIELD NOTES</div>
+        <h2>PUBLICATIONS</h2>
+        <div class="card">
+            <h3>Technical Write-ups</h3>
+            <p>Deep dives into TryHackMe SOC Level 1 challenges, digital forensics, and security architecture.</p>
+            <a href="https://medium.com/@stephorina292" class="card-link">Read on Medium ↗</a>
+        </div>
     </section>
 
-  </div>
+    <!-- Comms Section -->
+    <section>
+        <div class="tactical-label">ESTABLISH COMMS</div>
+        <h2>CONTACT</h2>
+        <div class="contact-box">
+            <p>Currently seeking 2027 internship opportunities in cybersecurity, incident response, and IT security. The line is open.</p>
+            <a href="mailto:Stephnermakori@gmail.com" class="btn-download">Open Channel</a>
+        </div>
+    </section>
+</div>
 </body>
 </html>
